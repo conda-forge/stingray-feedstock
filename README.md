@@ -18,14 +18,15 @@ following the example of Astropy.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/stingray-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/stingray-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/stingray-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/stingray-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/stingray-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/stingray-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/stingray-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/stingray-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/stingray/badges/version.svg)](https://anaconda.org/conda-forge/stingray)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/stingray/badges/downloads.svg)](https://anaconda.org/conda-forge/stingray)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-stingray-green.svg)](https://anaconda.org/conda-forge/stingray) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/stingray.svg)](https://anaconda.org/conda-forge/stingray) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/stingray.svg)](https://anaconda.org/conda-forge/stingray) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/stingray.svg)](https://anaconda.org/conda-forge/stingray) |
 
 Installing stingray
 ===================
