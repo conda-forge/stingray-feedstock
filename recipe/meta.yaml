@@ -1,6 +1,6 @@
 {% set name = "stingray" %}
-{% set version = "0.1rc1.post2" %}
-{% set sha256 = "f3d17782118427203cf2bbc7ab3cb6625fb1f031b11bd2ec9924418167bb9bf2" %}
+{% set version = "0.1" %}
+{% set sha256 = "8cac5ae8cfe390fdc6c56e4fc38dd477aedc5e0b4ff8dfc324e85f6023183d4b" %}
 
 package:
   name: {{ name|lower }}
