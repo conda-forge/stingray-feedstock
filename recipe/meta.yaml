@@ -20,12 +20,12 @@ requirements:
   build:
     - pip
     - python
-    - setuptools
+    - setuptools_scm
     - numpy >=1.16.0
   host:
     - pip
     - python
-    - setuptools
+    - setuptools_scm
     - numpy >=1.16.0
   run:
     - python
