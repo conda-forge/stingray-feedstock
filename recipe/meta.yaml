@@ -17,12 +17,12 @@ build:
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  host:
-    - pip
   build:
     - python
     - setuptools
     - numpy >=1.11.0
+  host:
+    - pip
   run:
     - python
     - astropy
