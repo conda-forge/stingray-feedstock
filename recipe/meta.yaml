@@ -1,6 +1,6 @@
 {% set name = "stingray" %}
-{% set version = "0.2" %}
-{% set sha256 = "586ce04c14644775321cf035c591e55b7c7dc02b2ae9f838621572f7360ef448" %}
+{% set version = "0.3" %}
+{% set sha256 = "b6544d5e43986878946fccae22a686db3aa925ebe244b1819c4d75e14bf14dfd" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   number: 0
   skip: true  # [py<35]
-  script: "python -m pip install . --no-deps -vv"
+  script: python -m pip install . --no-deps -vv
 
 requirements:
   host:
