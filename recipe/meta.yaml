@@ -1,5 +1,5 @@
 {% set name = "stingray" %}
-{% set version = "1.1" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ac6fc03faf69e8f097bb831fc45b1992a1cac3b4c27daa9bd66860fa64ad8d33
+  sha256: 6689704bf3c0e54e0007ba35d039258ad1901e269f9eacf485a82391266a5ccd
 
 build:
   number: 0
