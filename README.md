@@ -1,11 +1,11 @@
-About stingray
-==============
+About stingray-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/stingray-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/StingraySoftware/stingray
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/stingray-feedstock/blob/main/LICENSE.txt)
 
 Summary: The Next Generation Spectral Timing Software
 
