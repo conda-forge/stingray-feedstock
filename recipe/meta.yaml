@@ -1,16 +1,16 @@
 {% set name = "stingray" %}
-{% set version = "2.2.2" %}
+{% set version = "2.2.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9e580a3be6a152b5fb9d22dee3d10cfc7692847fcf2d993d17b481516c240514
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 1f3352486e81fcbbf88d5d2929ea7bff1c5161ca777121a06a6144133bdfe281
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
