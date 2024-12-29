@@ -10,17 +10,17 @@ source:
   sha256: f9c4ba545170fab69201149e35f2de3e39f6f7b18e8f5fc54c40ed802cd1e823
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - setuptools_scm
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - astropy-base >=4.0
     - matplotlib-base >=3.0,!=3.4.0
     - numpy >=1.17.0
@@ -43,6 +43,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: http://github.com/StingraySoftware/stingray
